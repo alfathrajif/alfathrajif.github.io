@@ -1,0 +1,14 @@
+body {
+  background-image: url(../images/clark-tibbs-oqStl2L5oxI-unsplash.jpg);
+}
+
+main {
+  min-height: calc(100vh - 40px - 70px - 24px);
+}
+
+@media (min-width: 1024px) {
+  main {
+    min-height: calc(100vh - 60px - 70px);
+    width: 100%;
+  }
+}
