@@ -12,3 +12,7 @@ main {
     width: 100%;
   }
 }
+
+section.wrapper-banner {
+  min-height: calc(100vh - 70px);
+}
