@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@alfathrajif 
-alfathrajif
-/
-alfathrajif.github.io
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-alfathrajif.github.io/index.html
-@alfathrajif
-alfathrajif Update index.html
-Latest commit e27602b 7 hours ago
- History
- 1 contributor
-129 lines (129 sloc)  6.17 KB
-   
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -35,7 +6,10 @@ Latest commit e27602b 7 hours ago
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Welcome to My Web Portfolio</title>
-    <script src="https://kit.fontawesome.com/4595dce51e.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/4595dce51e.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -51,8 +25,23 @@ Latest commit e27602b 7 hours ago
     <link rel="stylesheet" href="css/myStyle.css" />
   </head>
   <body
-    class="bg-fixed bg-contain bg-center bg-no-repeat bg-black text-white font-poppins"
+    class="bg-fixed bg-cover bg-center bg-no-repeat bg-black text-white font-poppins"
   >
+    <!-- Maintenance -->
+    <div id="maintenance" class="fixed top-0 z-20 bg-black/90 w-full h-screen flex flex-col justify-center items-center">
+      <div class="container mx-auto">
+        <button class="close group active:border-sky-700 active:text-sky-600 bg-black/30 border hover:border-sky-600 hover:text-sky-500 border-white/40 absolute top-0 right-0 m-6 mx-8 flex w-14 h-14 items-center justify-center rounded-full">
+          <span class="close material-icons text-3xl text-white/80 group-hover:text-sky-500 group-active:text-sky-600">close</span>
+        </button>
+        <h1
+          class="px-7 lg:text-5xl text-3xl text-center tracking-wide leading-snug font-medium w-full mb-7"
+        >
+          <span class="text-sky-600">Sorry! </span>
+          Website Page is Under Construction
+        </h1>
+        <p class="text-center px-7 text-xl font-light tracking-wide">If you want to see also press the exit button on the top right</p>
+      </div>
+    </div>
     <!-- Header -->
     <header
       class="flex items-center backdrop-blur-sm bg-gray-900 bg-opacity-80 min-h-[70px] w-full z-10 sticky top-0 border-b-[1px] border-gray-800"
@@ -97,32 +86,139 @@ Latest commit e27602b 7 hours ago
         <div class="container m-auto px-3 py-8 grid lg:grid-cols-4 gap-4">
           <div class="p-4 lg:col-span-2 flex items-center">
             <div class="">
-              <p class="text-sky-600 uppercase font-semibold mb-1">Hello</p>
-              <h1 class="font-bold text-6xl mb-3">I<span class="font-palanquin-dark">'</span>m Fath</h1>
-              <p class="text-xl mb-5 font-light tracking-wide">A Student and Web Developer <br>Who Likes The World of Technology.</p>
-              <a href="#" class="active:border-sky-700 active:text-sky-600 block bg-black/30 border hover:border-sky-600 hover:text-sky-500 border-white/40 font-light p-3 w-[150px] text-center text-sm">Contact Me</a>
+              <p
+                class="text-sky-600 lg:text-lg text-base uppercase font-semibold mb-1"
+              >
+                Hello
+              </p>
+              <h1 class="font-bold lg:text-7xl sm:text-6xl text-[10vw] mb-3">
+                I<span class="font-palanquin-dark">'</span>m Alfath Rajif
+              </h1>
+              <p class="text-xl mb-10 font-light tracking-wide">
+                A Student and Web Developer <br />Who Likes The World of
+                Technology.
+              </p>
+              <a
+                href="#"
+                class="active:border-sky-700 active:text-sky-600 block bg-black/30 border hover:border-sky-600 hover:text-sky-500 border-white/40 font-light p-3 w-[150px] text-center text-sm"
+                >Contact Me</a
+              >
             </div>
           </div>
           <div class="p-4 lg:col-span-2 lg:row-span-2 w-auto lg:ml-auto">
-            <div class="h-[400px] overflow-hidden flex justify-center mb-12">
-              <img class="object-cover h-full rounded-sm" src="images/michael-henry-5OyGRn_r9Y4-unsplash.jpg" alt="hello">
+            <div class="h-[400px] overflow-hidden flex justify-center mb-10">
+              <img
+                class="object-cover h-full rounded-sm"
+                src="images/michael-henry-5OyGRn_r9Y4-unsplash.jpg"
+                alt="hello"
+              />
             </div>
-            <div class="text-sm leading-6 font-light tracking-wide text-white/80">
-              I am a student who is interested in technology and web development. The first programming language I learned was JavaScript which is directly related things web development.
+            <div
+              class="text-base leading-6 font-light tracking-wide text-gray-200"
+            >
+              I am a student who is interested in technology and web
+              development. The first programming language I learned was
+              JavaScript which is directly related things web development.
             </div>
           </div>
-          <div class="lg:items-end lg:justify-start p-4 lg:col-span-2 order-last lg:order-none flex items-center justify-center">
-            <a href="https://www.instagram.com/alfathrajif" target="_blank" class="group border mx-2 bg-black/30 hover:border-sky-600 active:border-sky-700 border-white/40 flex w-14 h-14 rounded-full items-center justify-center">
-              <i class="fa-brands fa-instagram text-2xl text-white/80 group-hover:text-sky-500 group-active:text-sky-600"></i>
+          <div
+            class="lg:items-end lg:justify-start p-4 lg:col-span-2 order-last lg:order-none flex items-center justify-center"
+          >
+            <a
+              href="https://www.instagram.com/alfathrajif"
+              target="_blank"
+              class="group transition duration-300 ease-in-out hover:-translate-y-2 border mx-2 bg-black/30 hover:border-sky-600 active:border-sky-700 border-white/40 flex w-14 h-14 rounded-full items-center justify-center"
+            >
+              <i
+                class="fa-brands fa-instagram text-2xl text-white/80 group-hover:text-sky-500 group-active:text-sky-600"
+              ></i>
             </a>
-            <a href="#" class="group border mx-2 bg-black/30 hover:border-sky-600 active:border-sky-700 border-white/40 flex w-14 h-14 rounded-full items-center justify-center">
-              <i class="fa-brands fa-facebook text-2xl text-white/80 group-hover:text-sky-500 group-active:text-sky-600"></i>
+            <a
+              href="#"
+              class="group transition duration-300 ease-in-out hover:-translate-y-2 border mx-2 bg-black/30 hover:border-sky-600 active:border-sky-700 border-white/40 flex w-14 h-14 rounded-full items-center justify-center"
+            >
+              <i
+                class="fa-brands fa-facebook text-2xl text-white/80 group-hover:text-sky-500 group-active:text-sky-600"
+              ></i>
             </a>
-            <a href="#" class="group border mx-2 bg-black/30 hover:border-sky-600 active:border-sky-700 border-white/40 flex w-14 h-14 rounded-full items-center justify-center">
-              <i class="fa-brands fa-twitter text-2xl text-white/80 group-hover:text-sky-500 group-active:text-sky-600"></i>
+            <a
+              href="#"
+              class="group transition duration-300 ease-in-out hover:-translate-y-2 border mx-2 bg-black/30 hover:border-sky-600 active:border-sky-700 border-white/40 flex w-14 h-14 rounded-full items-center justify-center"
+            >
+              <i
+                class="fa-brands fa-twitter text-2xl text-white/80 group-hover:text-sky-500 group-active:text-sky-600"
+              ></i>
             </a>
-            <a href="#" class="group border mx-2 bg-black/30 hover:border-sky-600 active:border-sky-700 border-white/40 flex w-14 h-14 rounded-full items-center justify-center">
-              <i class="fa-brands fa-linkedin text-2xl text-white/80 group-hover:text-sky-500 group-active:text-sky-600"></i>
+            <a
+              href="#"
+              class="group transition duration-300 ease-in-out hover:-translate-y-2 border mx-2 bg-black/30 hover:border-sky-600 active:border-sky-700 border-white/40 flex w-14 h-14 rounded-full items-center justify-center"
+            >
+              <i
+                class="fa-brands fa-linkedin text-2xl text-white/80 group-hover:text-sky-500 group-active:text-sky-600"
+              ></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Projects -->
+      <section class="bg-white text-gray-900">
+        <div class="container mx-auto px-3 py-14">
+          <h1 class="text-center text-3xl font-semibold">
+            My Personal <span class="text-sky-600">Projects</span>
+          </h1>
+          <p class="text-center text-lg mb-6">
+            Check out some of the projects below
+          </p>
+          <div
+            class="flex flex-wrap justify-center just m-h-96 lg:gap-1 gap-6 px-4"
+          >
+            <a href="">
+              <div
+                class="h-72 lg:min-w-[450px] w-full relative group overflow-hidden rounded-sm"
+              >
+                <div
+                  class="absolute group-transition duration-700 ease-in-out bg-sky-600/90 backdrop-blur-sm -translate-y-full group-hover:-translate-y-0 w-full h-full text-white p-4"
+                >
+                  <h2>Titled project</h2>
+                </div>
+                <img
+                  class="object-cover h-full w-full"
+                  src="images/clark-tibbs-oqStl2L5oxI-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+            </a>
+            <a href="">
+              <div
+                class="h-72 lg:min-w-[450px] w-full relative group overflow-hidden rounded-sm"
+              >
+                <div
+                  class="absolute group-transition duration-700 ease-in-out bg-sky-600/90 backdrop-blur-sm -translate-y-full group-hover:-translate-y-0 w-full h-full text-white p-4"
+                >
+                  <h2>Titled project</h2>
+                </div>
+                <img
+                  class="object-cover h-full w-full"
+                  src="images/clark-tibbs-oqStl2L5oxI-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+            </a>
+            <a href="">
+              <div
+                class="h-72 lg:min-w-[450px] w-full relative group overflow-hidden rounded-sm"
+              >
+                <div
+                  class="absolute group-transition duration-700 ease-in-out bg-sky-600/90 backdrop-blur-sm -translate-y-full group-hover:-translate-y-0 w-full h-full text-white p-4"
+                >
+                  <h2>Titled project</h2>
+                </div>
+                <img
+                  class="object-cover h-full w-full"
+                  src="images/clark-tibbs-oqStl2L5oxI-unsplash.jpg"
+                  alt=""
+                />
+              </div>
             </a>
           </div>
         </div>
@@ -152,20 +248,8 @@ Latest commit e27602b 7 hours ago
         </div>
       </div>
     </footer>
+    <script src="js/maintenance.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/toggle.js"></script>
   </body>
 </html>
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
