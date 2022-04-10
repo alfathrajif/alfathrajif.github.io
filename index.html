@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Welcome to My Web Portfolio</title>
+    <script src="https://kit.fontawesome.com/4595dce51e.js" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -14,16 +15,22 @@
       rel="stylesheet"
       href="https://pagecdn.io/lib/easyfonts/poppins.css"
     />
+    <link
+      href="https://pagecdn.io/lib/easyfonts/palanquin-dark.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/myStyle.css" />
   </head>
   <body
     class="bg-fixed bg-contain bg-center bg-no-repeat bg-black text-white font-poppins"
   >
-  <!-- Header -->
+    <!-- Header -->
     <header
       class="flex items-center backdrop-blur-sm bg-gray-900 bg-opacity-80 min-h-[70px] w-full z-10 sticky top-0 border-b-[1px] border-gray-800"
     >
-      <div class="container m-auto px-3 flex items-center flex-wrap py-3 lg:py-0">
+      <div
+        class="container m-auto px-3 flex items-center flex-wrap py-3 lg:py-0"
+      >
         <a href="/" class="flex items-center italic p-4 py-2">
           <span class="font-semibold text-2xl">Fath</span>
           <span class="font-semibold text-2xl text-sky-600">Dev</span>
@@ -39,7 +46,7 @@
           id="navigation"
         >
           <nav class="flex flex-col lg:inline-flex lg:flex-row lg:ml-auto">
-            <a href="#" class="p-4 text-sm text-gray-100 hover:text-gray-50"
+            <a href="/" class="p-4 text-sm text-gray-100 hover:text-gray-50"
               >Home</a
             >
             <a href="#" class="p-4 text-sm text-gray-400 hover:text-gray-300"
@@ -56,9 +63,41 @@
     <main
       class="backdrop-blur-sm bg-gradient-to-tr from-gray-900 to-transparent"
     >
-      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">
-        <h1 class="lg:text-5xl text-2xl text-center tracking-wide leading-snug font-medium bg-black/50 p-10 animate-pulse"><span class="text-sky-600">Sorry! </span>Website Page is Under Construction</h1>
-      </div>
+      <!-- Banner -->
+      <section class="wrapper-banner flex">
+        <div class="container m-auto px-3 py-8 grid lg:grid-cols-4 gap-4">
+          <div class="p-4 lg:col-span-2 flex items-center">
+            <div class="">
+              <p class="text-sky-600 uppercase font-semibold mb-1">Hello</p>
+              <h1 class="font-bold text-6xl mb-3">I<span class="font-palanquin-dark">'</span>m Fath</h1>
+              <p class="text-xl mb-5 font-light tracking-wide">A Student and Web Developer <br>Who Likes The World of Technology.</p>
+              <a href="#" class="active:border-sky-700 active:text-sky-600 block bg-black/30 border hover:border-sky-600 hover:text-sky-500 border-white/40 font-light p-3 w-[150px] text-center text-sm">Contact Me</a>
+            </div>
+          </div>
+          <div class="p-4 lg:col-span-2 lg:row-span-2 w-auto lg:ml-auto">
+            <div class="h-[400px] overflow-hidden flex justify-center mb-12">
+              <img class="object-cover h-full rounded-sm" src="images/michael-henry-5OyGRn_r9Y4-unsplash.jpg" alt="hello">
+            </div>
+            <div class="text-sm leading-6 font-light tracking-wide text-white/80">
+              I am a student who is interested in technology and web development. The first programming language I learned was JavaScript which is directly related things web development.
+            </div>
+          </div>
+          <div class="lg:items-end lg:justify-start p-4 lg:col-span-2 order-last lg:order-none flex items-center justify-center">
+            <a href="https://www.instagram.com/alfathrajif" target="_blank" class="group border mx-2 bg-black/30 hover:border-sky-600 active:border-sky-700 border-white/40 flex w-14 h-14 rounded-full items-center justify-center">
+              <i class="fa-brands fa-instagram text-2xl text-white/80 group-hover:text-sky-500 group-active:text-sky-600"></i>
+            </a>
+            <a href="#" class="group border mx-2 bg-black/30 hover:border-sky-600 active:border-sky-700 border-white/40 flex w-14 h-14 rounded-full items-center justify-center">
+              <i class="fa-brands fa-facebook text-2xl text-white/80 group-hover:text-sky-500 group-active:text-sky-600"></i>
+            </a>
+            <a href="#" class="group border mx-2 bg-black/30 hover:border-sky-600 active:border-sky-700 border-white/40 flex w-14 h-14 rounded-full items-center justify-center">
+              <i class="fa-brands fa-twitter text-2xl text-white/80 group-hover:text-sky-500 group-active:text-sky-600"></i>
+            </a>
+            <a href="#" class="group border mx-2 bg-black/30 hover:border-sky-600 active:border-sky-700 border-white/40 flex w-14 h-14 rounded-full items-center justify-center">
+              <i class="fa-brands fa-linkedin text-2xl text-white/80 group-hover:text-sky-500 group-active:text-sky-600"></i>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- Footer -->
     <footer
@@ -66,15 +105,16 @@
     >
       <div class="container mx-auto px-3 py-3 lg:py-0">
         <div
-          class="text-gray-500 text-sm font-light text-center flex flex-wrap justify-center lg:justify-start"
+          class="px-4 text-gray-500 text-sm font-light text-center flex flex-wrap justify-center lg:justify-start"
         >
           <span class="mx-1">Copyright &copy; FathDev 2022</span>
           |
           <span class="mx-1"
             >Design by
             <a
-              href="/"
+              href="https://www.instagram.com/alfathrajif/"
               class="text-gray-400 hover:underline hover:underline-offset-1"
+              target="_blank"
               >Alfath Rajif</a
             ></span
           >
